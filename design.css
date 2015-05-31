@@ -66,12 +66,12 @@ body div#loading_screen {
 /* Time */
 
 body[dir=ltr] .time {
-	color: #49483E;
+	color: #888;
 	white-space: nowrap;
 }
 
 body[dir=rtl] .time {
-	color: #49483E;
+	color: #888;
 	white-space: nowrap;
 	padding-left: 0.4em;
 	display: inline-block;
