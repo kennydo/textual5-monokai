@@ -8,13 +8,13 @@
 }
 
 body {
-	color: #fff;
+	color: #F8F8F2;
 	height: 100%;
  	z-index: 100;
 	font-size: 12px;
 	overflow: hidden;
 	overflow-y: visible;
-	background-color: #000;
+	background-color: #282828;
 	font-family: "Lucida Grande";
 }
 
@@ -54,8 +54,8 @@ body div#loading_screen {
 	width: 300px;
 	height: 21px;
 	font-size: 18px;
-	background: #181818;
-	border: 1px solid #333333;
+	background: #282828;
+	border: 1px solid #49483E;
 	border-radius: 5px;
 	padding: 5px;
 	padding-left: 10px;
@@ -66,12 +66,12 @@ body div#loading_screen {
 /* Time */
 
 body[dir=ltr] .time {
-	color: #666;
+	color: #49483E;
 	white-space: nowrap;
 }
 
 body[dir=rtl] .time {
-	color: #666;
+	color: #49483E;
 	white-space: nowrap;
 	padding-left: 0.4em;
 	display: inline-block;
@@ -91,15 +91,15 @@ body[dir=rtl] .time {
 /* Links */
 
 a {
-	color: #0080FF;
-	border-color: #0080FF;
+	color: #66D9EF;
+	border-color: #66D9EF;
 	text-decoration: none;
 	border-bottom: dotted 1px;
 }
 
 a:hover {
-	color: #40A0FF;
-	border-color: #40A0FF;
+	color: #AE81FF;
+	border-color: #AE81FF;
 }
 
 /* Topic Bar */
@@ -187,7 +187,7 @@ div[id=mark] {
 	z-index: 295;
 	margin-top: -1px;
 	border-bottom: 1px dashed;
-	border-color: #444;
+	border-color: #49483E;
 	-webkit-transition: 0.2s linear;
 }
 
@@ -238,7 +238,7 @@ body div.line[ltype*=action] .time:not(.selectedUser) {
 
 body div.line.selectedUser[highlight=false] .time {
     transition: color 0.5s ease-in;
-	color: #aaa;
+	color: #888;
 }
 
 body div.line.selectedUser[highlight=false] {
@@ -267,17 +267,17 @@ body div.line[ltype*=action][highlight=true] {
   	position: relative;
 	font-weight: normal;
  	padding: 2px 5px 2px 5px;
-	border-top: 1px solid #988C00;
-	border-bottom: 1px solid #988C00;
+	border-top: 1px solid #ffd569;
+	border-bottom: 1px solid #ffd569;
   	background-color: #362C00 !important;
 }
 
 body div[ltype="privmsg"] .message {
-	color: #aaa;
+	color: #888;
 }
 
 body div[ltype*=privmsg][mtype*=myself] .message {
-	color: #fff;
+	color: #F8F8F2;
 }
 
 body div[ltype*=privmsg] .sender {
@@ -295,7 +295,7 @@ body div.line[ltype*=action] {
 }
 
 body div[ltype="action"] .message {
-	color: #aaa;
+	color: #888;
 }
 
 body div[ltype*=action] .sender {
@@ -304,7 +304,7 @@ body div[ltype*=action] .sender {
 
 body div[ltype*=action][mtype*=myself] .sender,
 body div[ltype*=action][mtype*=myself] .message {
-	color: #B52CF6;
+	color: #AE81FF;
 }
 
 body[dir=ltr] div[ltype*=action] .sender:before {
@@ -394,12 +394,12 @@ body div.line[ltype*=mode],
 body div.line[ltype*=topic],
 body div.line[ltype*=website] {
  	padding: 3px 5px 3px 5px;
-	color: #666;
+	color: #49483E;
 }
 
 body[dir=ltr] div[ltype*=join] .message:before {
 	content: "→";
-  	color: #0c0;
+  	color: #A6E22E;
   	/* margin-right: 0.4em; */
 }
 
@@ -407,19 +407,19 @@ body[dir=ltr] div[ltype*=kick] .message:before,
 body[dir=ltr] div[ltype*=part] .message:before,
 body[dir=ltr] div[ltype*=quit] .message:before {
 	content: "←";
-  	color: #e00;
+  	color: #F92672;
   	/* margin-right: 0.4em; */
 }
 
 body[dir=ltr] div[ltype*=nick] .message:before {
 	content:"•";
-  	color: #0c0;
+  	color: #A6E22E;
   	/* margin-right: 0.4em; */
 }
 
 body[dir=rtl] div[ltype*=join] .message:before {
 	content: "→";
-  	color: #0c0;
+  	color: #A6E22E;
   	/* margin-left: 0.4em; */
 }
 
@@ -427,13 +427,13 @@ body[dir=rtl] div[ltype*=kick] .message:before,
 body[dir=rtl] div[ltype*=part] .message:before,
 body[dir=rtl] div[ltype*=quit] .message:before {
 	content: "←";
-  	color: #e00;
+  	color: #F92672;
   	/* margin-left: 0.4em; */
 }
 
 body[dir=rtl] div[ltype*=nick] .message:before {
 	content:"•";
-  	color: #0c0;
+  	color: #A6E22E;
   	/* margin-left: 0.4em; */
 }
 
