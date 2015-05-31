@@ -273,11 +273,11 @@ body div.line[ltype*=action][highlight=true] {
 }
 
 body div[ltype="privmsg"] .message {
-	color: #888;
+	color: #F8F8F2;
 }
 
 body div[ltype*=privmsg][mtype*=myself] .message {
-	color: #F8F8F2;
+	color: #888;
 }
 
 body div[ltype*=privmsg] .sender {
