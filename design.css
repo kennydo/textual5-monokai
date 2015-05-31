@@ -108,15 +108,15 @@ a:hover {
 	top: 0;
 	left: 0;
 	right: 0;
-	opacity: 0; /* Set by JavaScript */
 	z-index: 400;
-	color: #8E8E8E;
+	opacity: 0; /* Set by JavaScript */
+	color: #49483E;
 	position: fixed;
 	padding: 2px 0.5em 3px;
-	box-shadow: 0 1px 5px #777;
-	border-bottom: 1px solid #404040;
-	text-shadow: 1px 1px rgba(10, 10, 10, 0.7);
-	background: -webkit-linear-gradient(top, #0F0F0F 0%, #262626 100%);
+	box-shadow: 0 1px 5px #F8F8F2;
+	text-shadow: 1px 1px rgba(250, 250, 250, 0.7);
+	border-bottom: 1px solid #F8F8F2;
+	background-color: #F8F8F2;
 	-webkit-transition: opacity 0.8s linear;
 	-webkit-font-smoothing: subpixel-antialiased;
 	overflow: hidden;
@@ -134,9 +134,8 @@ a:hover {
 
 #topic_bar a,
 #topic_bar span.channel {
-	color: #8E8E8E;
-	border-color: #8E8E8E;
-	text-shadow: 1px 1px rgba(10, 10, 10, 0.7);
+	color: #FD971F;
+	border-color: #FD971F;
 }
 
 /* Images */
