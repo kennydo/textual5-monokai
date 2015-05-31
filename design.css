@@ -294,7 +294,7 @@ body div.line[ltype*=action] {
 }
 
 body div[ltype="action"] .message {
-	color: #888;
+	color: #E6DB74;
 }
 
 body div[ltype*=action] .sender {
