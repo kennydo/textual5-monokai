@@ -10,7 +10,7 @@ It is based on the [Simplified Dark theme](https://github.com/Codeux-Software/Te
 
 To install, run the following two commands in a terminal:
 ```bash
-$ cd ~/Library/Group Containers/8482Q6EPL6.com.codeux.irc.textual/Library/Application Support/Textual/Styles
+$ cd ~/Library/Group\ Containers/8482Q6EPL6.com.codeux.irc.textual/Library/Application\ Support/Textual/Styles
 $ git clone https://github.com/kennydo/textual5-monokai
 ```
 
